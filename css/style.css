@@ -1,0 +1,169 @@
+body{
+    text-align: center;
+    font-family:Open Sans, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2{
+    color: #2A0074;
+    font-size: 40px;
+}
+
+.titulo-dourado{
+    color: #FFD700;
+}
+
+.titulo-violeta{
+    color: #BF40BF;
+}
+
+.titulo-azul{
+    color:  #00D4FF;
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+section section{
+    width:100%;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 5px;
+  
+}
+
+h3{
+  font-size:22px;
+  font-style: italic;
+}
+
+
+p{
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2;
+    padding-left:0;
+}
+
+a{
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+}
+
+.principal {
+    background: #797778;
+    height: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.principal ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;;
+}
+
+.principal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+#universo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #05070A; 
+    z-index: -1;
+    overflow: hidden;
+}
+
+.estrela {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: piscar var(--duracao) infinite ease-in-out;
+}
+
+@keyframes piscar {
+    0%, 100% { opacity: 0.2; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.3); }
+}
+
+#botaoEnviar {
+    background-color: transparent;
+    color: #00FBFF;
+    border: 2px solid #00FBFF;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 0 5px rgba(0, 251, 255, 0.2);
+}
+
+
+#botaoEnviar:hover {
+    background-color: #00FBFF;
+    color: #05070A;
+    box-shadow: 0 0 20px #00FBFF; 
+    transform: scale(1.1); 
+}
+
+#botaoEnviar:active {
+    transform: scale(0.95); 
+}
+#email {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none; 
+    transition: border-color 0.4s;
+}
+
+#email:focus {
+    border-color: #00FBFF;
+    box-shadow: 0 0 10px rgba(0, 251, 255, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#nome {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none; 
+    transition: border-color 0.4s;
+}
+
+#nome:focus {
+    border-color: #00FBFF;
+    box-shadow: 0 0 10px rgba(0, 251, 255, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+}
