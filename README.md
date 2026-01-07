@@ -29,7 +29,7 @@ O site conta com:
 
 ## ✒️ Autor
 
-Projeto desenvolvido por [Seu Nome](https://www.linkedin.com/in/jessicaf-ernandes/)
+Projeto desenvolvido por [Jéssica Fernandes](https://www.linkedin.com/in/jessicaf-ernandes/)
 
 ---
 *Este projeto faz parte da minha jornada de aprendizagem em desenvolvimento web com o apoio da PrograMaria.*
